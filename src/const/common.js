@@ -1,0 +1,1 @@
+export const imgSearch = require('../assets/images/search.png')

@@ -1,0 +1,32 @@
+.btn-open-search {
+    position: absolute;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: $bottomBarBackground;
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.search-box {
+    border: 1px solid $searchBoxBorder;
+    padding: 10px;
+    margin-bottom: 20px;
+    input {
+        border: none;
+    }
+    .btn-search-placeholder {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.modal-content-search {
+    max-height: 500px;
+    overflow: auto;
+}
